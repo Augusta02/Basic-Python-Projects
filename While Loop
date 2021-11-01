@@ -1,0 +1,12 @@
+ Write a program which reads the number of blocks the builders have, and outputs the height of the pyramid that can be built using these blocks.
+ 
+ total_blocks =int(input("Enter the number of blocks:")
+ blocks=0
+ height=0
+ 
+ while blocks in range(total_blocks):
+       height+=1
+       block+=1
+       total_blocks-=blocks
+       
+ print("The height of the blocks:", height)
