@@ -1,0 +1,3 @@
+import qrcode
+img = qrcode.make("hhtps://www.blog.pythonlibrary.org")
+img.save("some_file.png")
